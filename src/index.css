@@ -27,13 +27,39 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
+
 .main-img {
   display: block;
-  border-radius: 100%;
+  border-radius: 10px;
   margin: 0 auto;
-} */
+}
 
 header h1 {
   text-align: center;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.button{
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 2%;
+  width: 90px;
+  font-size: 1rem;
+  background: lightcyan;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover{
+  transform: translateY(-2px);
+  background: azure;
 }
