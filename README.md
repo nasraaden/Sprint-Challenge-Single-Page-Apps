@@ -27,7 +27,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: With client-side routing, the whole page does not refresh. This means that when you are switching between pages, things load faster. There is not a data request to the server with every new URL. The UI is much better and transitions are much smoother. 
+
+
 
 ## Project Set Up
 
